@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC|Libre+Franklin|Playfair+Display+SC|Raleway|Suravaram');
+
+html{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+ul.nav li{
+	padding-top:20px; /*Alinhamento dos itens do menu com o logo*/
+}
+.fixed-theme, footer {
+    background-color: #080808;
+    border-color: #080808;
+}
+.fixed-theme{
+	background-color:#fff;
+}
+a.page-scroll {
+    font-size: 22px; /*tamanho da fonte do menu*/
+    color: #49c2ff;  /*cor da fonte do menu*/
+	font-family: trajan pro; /*fonte do menu*/
+}
+.titulo-servicos, .titulo-produtos, .titulo-contato{
+	font-family: "roboto","arial","Libre Franklin","sans-serif";
+    font-weight: 300;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #000;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	text-shadow:2px 3px 8px #84458f;
+}
+h2{
+	font-size:25px;
+	font-family: "roboto","arial","Libre Franklin","sans-serif";
+	color:black;   
+}
+#home{
+    margin-top: 0px;
+}
+#servicos, #produtos{
+    padding-bottom: 60px;    
+}
+a[href="#links"] img.img-responsive{
+    width:100%;
+	height:100%;
+	padding-bottom:15px;
+}
+img.example-image{
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#produtos{
+   background-color:#fff;
+}
+#produtos img{
+	width:450px;
+	height:250px;
+}
+#promocoes{
+    background-color:#9543BA;
+}
+#contatos{
+    background-color:pink; 
+}
+#contato h4{
+    display: inline;
+}
+/* Estilo do botão para voltar ao topo da página*/
+.topo {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    padding: 1em;
+    display: none;
+    width: 80px;
+    height: 80px;
+}
+.input-group{
+    padding: 1%;
+}
+footer{
+    padding-top: 0px; 
+}
+footer a, footer a:hover, footer h4{
+    text-decoration: none;
+    color:#fff;
+}
+#textopromo{
+	margin:100px;
+	color:#fff;
+}
+.carousel, .item, .active {
+    height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+}
+.fill {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+.contato{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*Botão que carrega mais imagens na galeria*/
+#loadMore {
+    padding: 10px;
+    text-align: center;
+    background-color: purple;
+    color: #fff;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px #ccc;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+}
+#loadMore:hover {
+    background-color: #fff;
+    color: #33739E;
+}
+.carrega{
+    display: none;
+}
+/*Edição do logo*/
+a.page-scroll img{
+	width: 250px;
+	height: 110px;
+	padding:0px;
+}
+
+.preco{
+    color: purple;
+    font-size:22px;
+}
+
+.titulo-promocoes{
+    font-family:Stencil;
+    font-size:4.5em;
+    color: white;
+    text-align: center; 
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#promocoes h3{
+    text-align:center;
+    font-family:Stencil;
+    font-size:3.5em;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em; /*Sombreamento da letra*/
+    margin-right:10%;
+}
+
+#promocoes p{
+    color:#fff;
+    text-shadow: #000 0.1em 0.1em 0.2em; 
+    font-size:30px;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cor{
+    color:#2f2727;
+    font-size:35px;
+    text-shadow:none;
+    font-weight: bold;
+}
+#contatos a{
+    color:#b83ce3;
+}
